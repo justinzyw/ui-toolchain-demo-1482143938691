@@ -68,7 +68,7 @@ describe('MicroUI(' + desired.browserName + ')', function() {
         browser
             .get(url)
             .title()
-            .should.become("Microservices Sample")
+            .should.become("Welcome to Microservices Sample")
             .nodeify(done);
     });
 });
